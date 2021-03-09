@@ -1,0 +1,31 @@
+extends ../layout
+block content
+  doctype html
+  head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+
+  .container
+    .newBlog
+      a(href='/') Volver
+      br
+      br
+      br
+      h1 Nuevo blog
+      br
+      br
+      form(action='/blog' method='post')
+        label(for='title') Titulo:
+        input#title(type='text' name='title')
+        br
+        br
+        label(for='Bbody') Cuerpo:
+        input#Bbody(type='text' name='Bbody')
+        br
+        br
+        label(for='author') Autor:
+        input#author(type='text' name='author')
+        br
+        br
+        input.btn(type='submit' value='OK')
