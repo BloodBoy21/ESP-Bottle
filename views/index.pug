@@ -9,10 +9,13 @@ block content
     link(rel='stylesheet' href='stylesheets/style.css')
   .container
     header
-      canvas#c
-    section.main
-      p.counter= bottleCount.count
+      H1 ITESCO PET MANAGER
+    div.main
+      p.counter#count= bottleCount.count
       p.message Botellas han sido recogidas
-    aside.newUpdate
+      aside.newUpdate
+        h1 SEXOOOO
       
-  script(src='javascripts/matrixRain.js')
+  script(src="/socket.io/socket.io.js")
+  script(src="javascripts/socket.js")
+  script(src="javascripts/main.js")

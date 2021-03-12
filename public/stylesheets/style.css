@@ -10,8 +10,8 @@ header {
 }
 
 body {
-	background: #000;
-	color: white;
+	background: whitesmoke;
+	color: black;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -20,6 +20,16 @@ body {
 	max-width: 2000px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+header {
+	background: #58d68d;
+}
+
+header h1 {
+	color: #fff;
+	padding: 20px;
+	text-align: center;
 }
 
 footer {
@@ -33,21 +43,22 @@ footer {
 }
 /* Contador */
 .main {
-	width: 80%;
+	width: 100%;
 	float: left;
 	box-sizing: border-box;
 }
 .counter {
-	color: green;
+	color: #a0ddff;
 	text-align: center;
 	position: relative;
 	font-family: 'DotGothic16', sans-serif;
-	font-size: 40px;
+	font-size: 60px;
 }
 .message {
 	color: green;
 	text-align: center;
 	position: relative;
+	font-size: 30px;
 }
 
 /* Informacion al respecto */
@@ -55,8 +66,13 @@ footer {
 	color: white;
 	padding: 10px;
 	width: 20%;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	float: right;
+}
+.newUpdate h1 {
+	color: black;
+	text-align: center;
+	position: relative;
 }
 
 /* Resize */
