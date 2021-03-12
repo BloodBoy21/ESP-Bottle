@@ -1,5 +1,5 @@
 let http = new XMLHttpRequest();
-let url = 'http://localhost:3000/getBotellas';
+let url = 'http://localhost:3000/api/Botellas/itesco';
 
 let id = document.getElementById('count');
 
